@@ -1,0 +1,20 @@
+{
+  "name": "IoTivity-in-a-box",
+  "version": "0.1.0",
+  "description": "IoTivity (JavaScript) in a container",
+  "repository": "https://github.com/gvancuts/IoTivity-in-a-box",
+  "main": "index.js",
+  "keywords": [
+    "oic",
+    "iotivity",
+    "iot",
+    "ocf"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "iotivity-node": "^1.2.0-1"
+  }
+}
