@@ -1,6 +1,6 @@
 {
   "name": "IoTivity-in-a-box",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "IoTivity (JavaScript) in a container",
   "repository": "https://github.com/gvancuts/IoTivity-in-a-box",
   "main": "index.js",
@@ -15,6 +15,6 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "iotivity-node": "^1.2.0-1"
+    "iotivity-node": "^1.2.1-1"
   }
 }

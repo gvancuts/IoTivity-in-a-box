@@ -19,7 +19,8 @@ RUN apt-get install -y \
 # Install IoTivity build dependencies
 RUN apt-get install -y \
     libboost-dev libboost-program-options-dev libboost-thread-dev \
-    uuid-dev libexpat1-dev libglib2.0-dev
+    uuid-dev libexpat1-dev libglib2.0-dev libsqlite3-dev \
+    libcurl4-gnutls-dev
 
 # Install npm, nodejs
 RUN apt-get install -y npm nodejs-legacy
