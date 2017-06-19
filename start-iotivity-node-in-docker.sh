@@ -25,14 +25,14 @@ then
     if [ -f "$USER_DIR/index.js" ];
     then
 	    echo "index.js file found, attempting to use it..."
-	    /usr/bin/node "$USER_DIR/index.js" &
+	    /usr/bin/nodejs "$USER_DIR/index.js" &
     else
 	    echo "Please provide a .js file to be used."
     fi
 elif [ -f "$USER_DIR/$1" ];
 then
 	echo "Starting $1..."
-	/usr/bin/node "$USER_DIR/$1" &
+	/usr/bin/nodejs "$USER_DIR/$1" &
 else
 	echo "Could not find the $1 file... please double-check your mount volume and filename."
 fi
